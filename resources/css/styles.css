@@ -1,0 +1,253 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+.logo img {
+    width: 18%;
+    height: 1%;
+    position: relative;
+    left: 38%;
+    margin:10px;    
+    
+}
+
+.container {
+    background-image: url("../images/bleach_background.png");
+    height: 350px;
+    width: 100%;
+    min-width: 600px;
+    /*opacity: 0.8;*/
+    position: relative;
+}
+
+.nav_bar {
+    background-color:firebrick;
+    height: 15%;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.nav_bar li {
+    list-style: none;
+    opacity: 1;
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin: 0 auto;
+    margin-left: 5%;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    left: -4%;
+    font-size: 120%;
+    
+}
+
+.nav_bar li:hover {
+    background-color: black;
+}
+
+.banner {
+    color: white;
+    text-align: center;
+    width: 30%;
+    font-weight: bold;
+    margin: 40px auto;
+    padding: 10px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.phrase {
+    color: white;
+    background-color: firebrick;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.main {
+    background-image: url(../images/bleach_footer4.jpg);
+    width: 100%;
+    min-width: 600px;
+    height: 800px;
+    background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.4;
+   position: relative;
+   
+}
+
+.layer {
+    height: 800px;
+    background-color: firebrick;
+    opacity: 0.5;
+}
+
+footer {
+    height: auto;
+    min-height: 350px;
+    width: 100%;
+    min-width: 600px;
+    background-color: firebrick;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.footer_images {
+    position: relative;
+    
+}
+
+.footer_images li {
+    display: inline-block;
+    height: auto;
+    position: relative;
+    left: 12%;
+    
+}
+
+.footer_images img {
+    height: 100px;
+    width: 100%;
+}
+
+.image1 {
+    width: 10%;
+}
+
+.image2 {
+    width: 10%;
+}
+
+.image3 {
+    width: 25%;
+}
+
+.image4 {
+    width: 18%;
+}
+
+.image5 {
+    width: 10%;
+    
+}
+
+.footer_links li {
+    color: white;
+    font-size: 20px;
+    width: 15%;
+    min-width: 100px;
+    height: auto;
+    font-weight: bold;
+    position: relative;
+    left: 25%;
+    top: 25px;
+    padding: 3px;
+    border-right: 2px solid white;
+    padding-right: 10px;
+}
+
+.footer_links {
+    margin: 5px;
+    
+}
+
+.footer_links li:hover {
+    background-color: black;
+}
+
+.contact li {
+    color: black;
+    font-weight: 900;
+    background-color: white;
+    border-radius: 10px;
+    width: 14%;
+    
+}
+
+.contact li:hover {
+    background-color: black;
+    color: white;
+    border-right: 2px solid black;
+}
+
+.sign_up {
+    display: inline-block;
+    width: 40%;
+    min-width: 300px;
+    height: 40%;
+    position: relative;
+    left: 45%;
+    top: -140px;
+    color: white;
+    padding: 5px;
+    
+}
+
+.sign_up .btn {
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    top:20px ;
+}
+
+.sign_up .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.sign_up .ad {
+    text-align: center;
+    width: 60%;;
+    margin: 0 auto;
+}
+
+.sign_up .name {
+    border: 2px solid white;
+    width: 90%;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+.sign_up .email {
+    border: 2px solid white;
+    width: 90%;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+.media li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.media {
+    width:auto;
+    height: auto;
+    position: absolute;
+    bottom: -15px;
+    left: 40%;
+}
+
+.media img {
+    height: 150%;
+    width: 150%;
+}
